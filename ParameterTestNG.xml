@@ -1,0 +1,12 @@
+<suite name = "TestSuite2" verbose="1">
+	<test name="TestCycle1">
+		<parameter name="username" value="username"/>
+		<parameter name="password" value="password"/>
+	<classes>
+		<class name="com.app.TestNg.DataDrivenTesting.ParameterDemo">
+		
+		</class>
+	</classes>	
+	</test>
+	
+</suite>

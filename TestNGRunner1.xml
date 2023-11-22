@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login and Logout">
+	<test name="TestCycle1">
+		<classes>
+
+			<class name="com.appTestNGscripts.TestAnnotation"></class>
+			<methods>
+				<include name="loginWithValidCredentials"></include>
+			</methods>
+			<class name="com.appTestNGscripts.BeforeandAfterMethods"></class>
+			<methods>
+				<include name="logout"></include>
+			</methods>
+
+		</classes>
+	</test>
+</suite>	
+		

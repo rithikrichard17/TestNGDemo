@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Parameter test" verbose = "1">
+	<test name = "testcycle1">
+		<parameter name = "username" value="admin"/>
+		<parameter name = "password" value="admin@123"/>
+		<classes>
+			<class name = "com.app.TestNg.DataDrivenTesting.ParameterDemo"> </class>
+		</classes>
+		</test>
+	<test name = "testcycle2">
+		<parameter name = "username" value="Rithik"/>
+		<parameter name = "password" value="admin@123"/>
+		<classes>
+			<class name = "com.app.TestNg.DataDrivenTesting.ParameterDemo"> </class>
+		</classes>
+	</test>	
+	<test name = "testcycle3">
+		<parameter name = "username" value="Das"/>
+		<parameter name = "password" value="admin@123"/>
+		<classes>
+			<class name = "com.app.TestNg.DataDrivenTesting.ParameterDemo"> </class>
+		</classes>
+	</test>		
+</suite>

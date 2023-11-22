@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="testsuite" verbose="1" parallel="methods" thread-count="2">
+	<test name="TestCycle1">
+		<classes>
+			<class name="com.appTestNGscripts.ParallelDemo">
+				<methods>
+					<include name="wikiPage1"></include>
+					<include name="wikiPage2"></include>
+					<include name="ninjaPage1"></include>
+					<include name="ninjaPage2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

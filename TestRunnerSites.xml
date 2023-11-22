@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="extentreports" verbose="1">
+    <test name="Test WikiPage">
+        <classes>
+            <class name="com.appTestNGextentreports.TestClass">
+                <methods>
+                    <include name="method1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test facebookpage">
+        <classes>
+            <class name="com.appTestNGextentreports.TestClass">
+                <methods>
+                    <include name="method2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test rediffPage">
+        <classes>
+            <class name="com.appTestNGextentreports.TestClass">
+                <methods>
+                    <include name="method3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
